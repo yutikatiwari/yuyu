@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple JS DOM Example</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Simple JavaScript DOM Connection</h1>
+        
+        <!-- Basic Text Manipulation -->
+        <h2>1. Text Manipulation</h2>
+        <p id="demo-text">This is the original text.</p>
+        <button onclick="changeText()">Change Text</button>
+        <button onclick="resetText()">Reset Text</button>
+        
+        <!-- Getting Element by ID -->
+        <h2>2. Input and Display</h2>
+        <input type="text" id="user-input" placeholder="Type something...">
+        <button onclick="showInput()">Show Input</button>
+        <button onclick="clearInput()">Clear</button>
+        
+        <!-- Output Area -->
+        <div id="output">Your output will appear here...</div>
+        
+        <!-- Style Changes -->
+        <h2>3. Style Changes</h2>
+        <p id="style-text">This text will change style.</p>
+        <button onclick="changeColor()">Change Color</button>
+        <button onclick="changeSize()">Change Size</button>
+        <button onclick="addHighlight()">Add Highlight</button>
+        <button onclick="removeHighlight()">Remove Highlight</button>
+        
+        <!-- Show/Hide Elements -->
+        <h2>4. Show/Hide Elements</h2>
+        <p id="toggle-text">This text can be hidden or shown.</p>
+        <button onclick="hideText()">Hide</button>
+        <button onclick="showText()">Show</button>
+        <button onclick="toggleText()">Toggle</button>
+        
+        <!-- Creating New Elements -->
+        <h2>5. Create New Elements</h2>
+        <button onclick="addNewElement()">Add New Paragraph</button>
+        <button onclick="removeLastElement()">Remove Last Paragraph</button>
+        <div id="new-elements-container"></div>
+    </div>
+
+   
+</body>
+</html>
